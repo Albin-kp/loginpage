@@ -7,13 +7,17 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var password = document.getElementById("password").value;
     
     // Perform username and password validation
-    if (username === "albinkp" && password === "albinkp") {
+    if (username === "albinkp" && password === "7736950362") {
       // Redirect to another file
       window.location.href = "switch.html";
+         document.getElememtById("username").value="";
+        document.getElememtById("password").value="";
     } else {
         window.location.href="login.html"
       alert("Invalid username or password. Please try again.");
       document.getElementById("message").textContent="invalid username or password"
+        document.getElememtById("username").value="";
+        document.getElememtById("password").value="";
     }
   });
   

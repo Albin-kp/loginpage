@@ -9,7 +9,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     // Perform username and password validation
     if (username === "albinkp" && password === "7736950362") {
       // Redirect to another file
-      window.location.href = "switch.html";
+      window.location.href = "index.html";
          document.getElememtById("username").value="";
         document.getElememtById("password").value="";
     } else {
